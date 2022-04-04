@@ -1,0 +1,53 @@
+[
+    {
+        "connectionControl": "ATF",
+        "connectionStatus": "connected",
+        "deviceId": "68:fe:f7:02:c2:16",
+        "deviceName": "device_1",
+        "deviceType": "mac",
+        "groupId": "1",
+        "ipAddress": "192.168.0.100",
+        "ssid": "ATF5G",
+        "version": "5.0.0",
+        "networkParams": {
+            "ci": "string",
+            "eNb": "string",
+            "cid": "string",
+            "tac": "string",
+            "pci": "string",
+            "earfcn": "string",
+            "rssi": "string",
+            "rsrp": "string",
+            "rsrq": "string",
+            "PLMN_mcc": "string",
+            "PLMN_mnc": "string",
+            "PLMN_id": "string"
+        }
+    },
+
+    {
+        "connectionControl": "ATF",
+        "connectionStatus": "connected",
+        "deviceId": "68:fe:f7:02:c2:16",
+        "deviceName": "device_1",
+        "deviceType": "mac",
+        "groupId": "1",
+        "ipAddress": "192.168.0.100",
+        "ssid": "ATF5G",
+        "version": "5.0.0",
+        "networkParams": {
+            "ci": "string",
+            "eNb": "string",
+            "cid": "string",
+            "tac": "string",
+            "pci": "string",
+            "earfcn": "string",
+            "rssi": "string",
+            "rsrp": "string",
+            "rsrq": "string",
+            "PLMN_mcc": "string",
+            "PLMN_mnc": "string",
+            "PLMN_id": "string"
+        }
+    }
+]

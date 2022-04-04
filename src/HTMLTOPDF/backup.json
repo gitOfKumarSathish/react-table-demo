@@ -1,0 +1,70 @@
+{
+    "status": 200,
+    "statusMessage": "Successfully retrieved report",
+    "msgType": "report",
+    "testConfig": {
+        "APBSSID": "-",
+        "APSSID": "-",
+        "SecurityType": "-",
+        "groupId": "group_1",
+        "NoOfDevices": 1
+    },
+    "testInfo": {
+        "StartTime": "2021-05-19T09:18:59.489",
+        "EndTime": "2021-05-19T09:19:44.633"
+    },
+    "results": [
+        {
+            "trafficId": "ftpdl",
+            "trafficType": "external",
+            "traffic": "ftpDl",
+            "trafficConfig": {
+                "fileName": "512KB.zip",
+                "trafficDuration": 10,
+                "port": 21,
+                "url": "http://speedtest.tele2.net/512KB.zip",
+                "username": "anonymous"
+            },
+            "resultPerDevice": [
+                {
+                    "deviceName": "device_1",
+                    "deviceType": "linux",
+                    "timeTaken": 1.289,
+                    "status": "Pass",
+                    "failureReason": ""
+                }
+            ],
+            "resultPerDeviceType": [
+                {
+                    "deviceType": "windows",
+                    "timeTaken": 0,
+                    "passCount": 0
+                },
+                {
+                    "deviceType": "mac",
+                    "timeTaken": 0,
+                    "passCount": 0
+                },
+                {
+                    "deviceType": "linux",
+                    "timeTaken": 1.289,
+                    "passCount": 1
+                },
+                {
+                    "deviceType": "android",
+                    "timeTaken": 0,
+                    "passCount": 0
+                },
+                {
+                    "deviceType": "ios",
+                    "timeTaken": 0,
+                    "passCount": 0
+                }
+            ],
+            "overAllResult": {
+                "timeTaken": 1.289,
+                "passCount": 1
+            }
+        }
+    ]
+}
